@@ -1,3 +1,4 @@
+// Trigger redeploy
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Hero from "./components/Hero";
 import PhraseStrip from "./components/PhraseStrip";
