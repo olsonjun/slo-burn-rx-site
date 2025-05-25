@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <header className="fixed top-0 left-0 w-full px-6 py-4 z-50 flex justify-between items-center text-pink-600 bg-white/80 backdrop-blur">
         <div className="text-lg font-heading font-bold tracking-tight">SLO BURN Rx</div>
-        <nav className="space-x-4 text-xs uppercase font-sans">
+        <nav className="flex gap-4 text-sm md:text-base font-semibold uppercase font-sans tracking-wide">
           <Link to="/" className="hover:text-fuchsia-500">Home</Link>
           <Link to="/about" className="hover:text-fuchsia-500">About</Link>
           <Link to="/method" className="hover:text-fuchsia-500">The Method</Link>
