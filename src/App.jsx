@@ -19,7 +19,7 @@ export default function App() {
           <Link to="/signup" className="hover:text-fuchsia-500">Resources</Link>
         </nav>
       </header>
-      <main className="pt-20 font-sans">
+      <main className="pt-25 font-sans">
         <Routes>
           <Route path="/" element={<><Hero /><PhraseStrip /><RxMethod /><FlameCTA /></>} />
           <Route path="/about" element={<AboutUs />} />
