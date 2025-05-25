@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop"; // ✅ New helper
 import Hero from "./components/Hero";
 import PhraseStrip from "./components/PhraseStrip";
 import RxMethod from "./components/RxMethod";
@@ -13,6 +14,8 @@ export default function App() {
 
   return (
     <Router>
+      <ScrollToTop /> {/* ✅ Automatically scrolls to top on route change */}
+
       <header className="fixed top-0 left-0 w-full px-6 py-2 z-50 bg-white/95 backdrop-blur-sm">
         <div className="flex justify-between items-center max-w-7xl mx-auto relative h-16">
           <div className="text-xl font-heading font-bold tracking-tight text-pink-600">SLO BURN Rx</div>
